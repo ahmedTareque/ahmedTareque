@@ -1,0 +1,17 @@
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+package-lock.json
+
+# Build directory
+/public/static
+/public/slides
+/public/page-data
+/public/manifest.webmanifest
+/public/render-page.js
+/public/render-page.js.map
+.DS_Store
+
+.vscode/
+.next/

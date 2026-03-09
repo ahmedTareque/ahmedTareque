@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Fonts via Google (loaded in _document.tsx) ─── */
+:root {
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+
+  --ink:   #131f2f;
+  --paper: #F2EDE6;
+  --teal:  #00B4A2;
+  --coral: #FF5C3A;
+  --muted: #b78654;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: auto; /* Lenis handles smooth scroll */
+  cursor: none;
+}
+
+body {
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Custom Cursor ─────────────────────────── */
+#cursor-dot {
+  position: fixed;
+  top: 0; left: 0;
+  width: 8px; height: 8px;
+  background: var(--teal);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: width 0.2s, height 0.2s, background 0.2s;
+  mix-blend-mode: difference;
+}
+
+#cursor-ring {
+  position: fixed;
+  top: 0; left: 0;
+  width: 40px; height: 40px;
+  border: 1.5px solid rgba(0, 180, 162, 0.6);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9998;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s ease, height 0.3s ease, border-color 0.3s;
+}
+
+body.cursor-hover #cursor-dot {
+  width: 14px; height: 14px;
+  background: var(--coral);
+}
+body.cursor-hover #cursor-ring {
+  width: 60px; height: 60px;
+  border-color: rgba(255, 92, 58, 0.5);
+}
+
+/* ─── Grain Overlay ────────────────────────── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: -200%;
+  width: 400%; height: 400%;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+  opacity: 0.035;
+  pointer-events: none;
+  z-index: 9000;
+  animation: grain 0.8s steps(1) infinite;
+}
+
+@keyframes grain {
+  0%,100% { transform: translate(0,0); }
+  10%      { transform: translate(-2%,-3%); }
+  20%      { transform: translate(3%,2%); }
+  30%      { transform: translate(-1%,4%); }
+  40%      { transform: translate(4%,-1%); }
+  50%      { transform: translate(-3%,3%); }
+  60%      { transform: translate(2%,-4%); }
+  70%      { transform: translate(-4%,2%); }
+  80%      { transform: translate(3%,-3%); }
+  90%      { transform: translate(-2%,4%); }
+}
+
+/* ─── Scroll clip for reveal ────────────────── */
+.clip-reveal {
+  overflow: hidden;
+  display: block;
+}
+.clip-reveal > span {
+  display: block;
+  transform: translateY(110%);
+  opacity: 0;
+}
+
+/* ─── Section utility ───────────────────────── */
+.section-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+
+/* ─── Magnetic button base ──────────────────── */
+.magnetic {
+  position: relative;
+  display: inline-flex;
+  cursor: none;
+}
+
+/* ─── Scrollbar ─────────────────────────────── */
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: var(--ink); }
+::-webkit-scrollbar-thumb { background: var(--teal); border-radius: 2px; }
+
+/* ─── Selection ─────────────────────────────── */
+::selection { background: var(--teal); color: var(--ink); }
+
+/* ─── Link reset ────────────────────────────── */
+a { text-decoration: none; color: inherit; }
