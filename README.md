@@ -43,12 +43,16 @@ This portfolio is where that story lives.
 |---|---|
 | 🎓 | First-generation university graduate — BRAC University, BSc Computer Science |
 | 🌍 | Born in Bangladesh. Building in Norman, Oklahoma. |
-| 👨‍👩‍👧‍👦 | Husband. Father of two. Still ships code after bedtime. |
+| 👨‍👩‍👧‍👦 | Husband. Father of two infants. Still ships code after bedtime. |
 | 🕌 | Built the Islamic Society of Norman app used by the local Muslim community |
 | 🏆 | Led 600+ person national hackathon as President of Mozilla Firefox Bangladesh |
-| 🤖 | Implemented AI-powered Rock Paper Scissors robot — image recognition, real-time human-robot interaction |
+| 🤖 | [Rock Paper Scissors: AI-Powered Robot Playmate with Image Recognition!](https://www.youtube.com/watch?v=9ZcNXEHXX24) — real-time human-robot interaction |
 | 🚁 | Studied swarm algorithms for drone obstacle detection |
 | ❤️ | Red Crescent volunteer — fundraised for underprivileged communities |
+| 🎮 | Off the clock: World of Tanks, FIFA, and Call of Duty |
+| 🏍️ | Ride sports bikes to the mountains and sea beaches |
+| ⚽ | Love playing football |
+| 🔧 | Currently learning: car mechanics |
 
 ---
 
@@ -109,6 +113,26 @@ Engineering at this scale meant every decision carried real consequences — a b
 
 ---
 
+## Client & Product Work
+
+### 🏥 Quick Urgent Care — Patient Conversion Site *(Moore + OKC)*
+
+A ~128-route Next.js site engineered to turn local search intent into walk-in visits — 30 SEO city × service landing pages, condition and symptom guides, and online booking. `MedicalWebPage` + `Speakable` + FAQ schema answer AI and voice queries; Stripe handles self-pay, Resend handles booking email.
+
+**Stack:** Next.js 15 · TypeScript · Tailwind · Stripe · Resend · Vercel
+→ [quickurgentcareok.com](https://www.quickurgentcareok.com/)
+
+---
+
+### 🍽️ Food Port POS — Restaurant Ordering Platform
+
+A kiosk-to-kitchen ordering system in a single codebase — token-based customer ordering (no login), vendor and admin portals, and a standalone public display board. Zustand for state, socket.io for live kitchen updates, Supabase for menu media.
+
+**Stack:** Next.js 16 · React 19 · Zustand · socket.io · Supabase · Tailwind v4
+→ [food-port-frontend.vercel.app/order](https://food-port-frontend.vercel.app/order)
+
+---
+
 ## Founded
 
 ### 🧠 Sapiens Station *(2026 — Norman, OK)*
@@ -139,7 +163,7 @@ Developed a **SaaS platform for Internet Service Providers** as a university stu
 | Year | Role | Impact |
 |------|------|--------|
 | 2017 | President, Mozilla Firefox Bangladesh | Organized national hackathon with **600+ participants** in partnership with Google Developers Group Bangladesh |
-| 2016 | Team Lead — AI Robot | Built image-recognition powered Rock Paper Scissors robot with real-time human-robot interaction |
+| 2016 | Team Lead — AI Robot | Built an image-recognition powered [Rock Paper Scissors robot](https://www.youtube.com/watch?v=9ZcNXEHXX24) with real-time human-robot interaction |
 | 2016 | Team Lead — Swarm Robotics | Implemented swarm algorithm in 3-sensor obstacle detection robot; explored drone applications |
 | 2015 | Volunteer, Red Crescent | Fundraised for underprivileged communities under international organizations |
 
