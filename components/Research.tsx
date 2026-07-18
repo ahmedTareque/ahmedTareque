@@ -9,7 +9,7 @@ const PAPERS = [
     description: 'Investigated vulnerability of deep learning medical classifiers under adversarial perturbations. Built a pneumonia detection model using MobileNetV2, generated adversarial examples with FGSM across multiple epsilon levels, then applied adversarial training to improve robustness.',
     highlight: 'Grad-CAM revealed that adversarial noise shifts model attention away from clinically meaningful lung regions — a system that gives correct predictions for the wrong reasons cannot be trusted.',
     tags: ['MobileNetV2', 'FGSM', 'Grad-CAM', 'TensorFlow', 'Computer Vision'],
-    color: 'var(--teal)',
+    color: '#00B4A2',
   },
   {
     year: '2019',
@@ -18,7 +18,7 @@ const PAPERS = [
     description: 'Evaluated KNN, SVM, Random Forest, and Neural Networks on retinal fundus images to assess their effectiveness in detecting early signs of diabetic retinopathy.',
     highlight: 'Neural network classifier achieved 72.61% accuracy — but accuracy alone doesn\'t guarantee clinical reliability. This gap became the seed of all future research.',
     tags: ['KNN', 'SVM', 'Random Forest', 'Neural Networks', 'Medical Imaging'],
-    color: 'var(--coral)',
+    color: '#FF5C3A',
   },
 ]
 
@@ -62,7 +62,7 @@ export default function Research() {
             transition: 'transform 0.9s cubic-bezier(0.16,1,0.3,1), opacity 0.9s ease',
             marginBottom: '1rem',
           }}>
-            02 — Research
+            § 02 — Research
           </div>
           <h2 className="res-reveal" style={{
             fontFamily: 'var(--font-display)',

@@ -11,6 +11,7 @@ export default function Document() {
           rel="stylesheet"
         />
         <meta name="theme-color" content="#0A0A0A" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       </Head>
       <body>
         <div id="cursor-dot" />

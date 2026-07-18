@@ -98,7 +98,7 @@ export default function About() {
             transition: 'transform 0.9s cubic-bezier(0.16,1,0.3,1), opacity 0.9s ease',
             marginBottom: '2.5rem',
           }}>
-            01 — Origin
+            § 01 — Origin
           </div>
 
           <h2 className="reveal-line" style={{

@@ -7,9 +7,10 @@ import Navbar   from '../components/Navbar'
 import Hero     from '../components/Hero'
 import About    from '../components/About'
 import Research from '../components/Research'
-import Work     from '../components/Work'
-import Projects from '../components/Projects'
-import Contact  from '../components/Contact'
+import Work       from '../components/Work'
+import Projects   from '../components/Projects'
+import BeyondWork from '../components/BeyondWork'
+import Contact    from '../components/Contact'
 
 // Preloader only runs client-side
 const Preloader = dynamic(() => import('../components/Preloader'), { ssr: false })
@@ -23,7 +24,7 @@ const Home: NextPage = () => {
         <title>Ahmed Tareque — Software Engineer &amp; AI Researcher</title>
         <meta name="description" content="Software Engineer and AI Researcher focused on trustworthy, adversarially robust machine learning for healthcare. PhD applicant 2026." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       </Head>
 
       {/* Preloader */}
@@ -41,6 +42,7 @@ const Home: NextPage = () => {
           <Research />
           <Work />
           <Projects />
+          <BeyondWork />
           <Contact />
         </main>
       </div>

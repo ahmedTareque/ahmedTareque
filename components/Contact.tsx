@@ -57,7 +57,7 @@ export default function Contact() {
           transition: 'transform 0.9s cubic-bezier(0.16,1,0.3,1), opacity 0.9s ease',
           marginBottom: '2rem',
         }}>
-          05 — Contact
+          06 — Contact
         </div>
 
         <h2 className="contact-reveal" style={{

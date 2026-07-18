@@ -2,27 +2,7 @@
 import { useEffect, useRef, useState } from 'react'
 
 const WORK = [
-  {
-    period: '2021 – 2023',
-    role: 'Full-Stack Developer',
-    company: 'SynesisIT',
-    location: 'Dhaka, Bangladesh',
-    scale: '500K+ users',
-    description: 'Built Bangladesh\'s National Skills Development Portal — a government platform serving 500K+ citizens with employment resources, training, and national education initiatives. Spring Boot backend, Angular frontend, PostgreSQL + Liquibase.',
-    tags: ['Spring Boot', 'Angular', 'PostgreSQL', 'Liquibase', 'Java'],
-    accent: 'var(--teal)',
-  },
-  {
-    period: '2026 – Present',
-    role: 'CEO & Founder',
-    company: 'Sapiens Station',
-    location: 'Norman, OK',
-    scale: 'AI-powered',
-    description: 'Building purpose-built AI agents for healthcare and real estate — replacing hardened workflows with intelligent automation. Target: 70% reduction in cost-to-serve, 95× improvement in response times.',
-    tags: ['AI Agents', 'Healthcare', 'Automation', 'Next.js'],
-    accent: 'var(--coral)',
-  },
-  {
+    {
     period: '2026 – Present',
     role: 'CEO & Founder',
     company: 'Muslim Noor',
@@ -33,6 +13,26 @@ const WORK = [
     accent: '#8B6FFF',
   },
   {
+    period: '2026 – Present',
+    role: 'CEO & Founder',
+    company: 'Sapiens Station',
+    location: 'Norman, OK',
+    scale: 'AI-powered',
+    description: 'Building purpose-built AI agents for healthcare and real estate — replacing hardened workflows with intelligent automation. Target: 70% reduction in cost-to-serve, 95× improvement in response times.',
+    tags: ['AI Agents', 'Healthcare', 'Automation', 'Next.js'],
+    accent: '#FF5C3A',
+  },
+  {
+    period: '2021 – 2023',
+    role: 'Full-Stack Developer',
+    company: 'SynesisIT',
+    location: 'Dhaka, Bangladesh',
+    scale: '500K+ users',
+    description: 'Built Bangladesh\'s National Skills Development Portal — a government platform serving 500K+ citizens with employment resources, training, and national education initiatives. Spring Boot backend, Angular frontend, PostgreSQL + Liquibase.',
+    tags: ['Spring Boot', 'Angular', 'PostgreSQL', 'Liquibase', 'Java'],
+    accent: '#00B4A2',
+  },
+  {
     period: '2021',
     role: 'Full-Stack Developer',
     company: 'Digital Motion',
@@ -40,7 +40,7 @@ const WORK = [
     scale: 'POS Software',
     description: 'Developed store budget, product transfer, rewards, and refund features for POS software. Redesigned UI and managed offline desktop transactions.',
     tags: ['VueJS', 'Laravel', 'MySQL'],
-    accent: 'var(--teal)',
+    accent: '#3AA0FF',
   },
 ]
 
@@ -81,7 +81,7 @@ export default function Work() {
         transition: 'transform 0.9s cubic-bezier(0.16,1,0.3,1), opacity 0.9s ease',
         marginBottom: '1rem',
       }}>
-        <div className="section-label">03 — Experience</div>
+        <div className="section-label">§ 03 — Experience</div>
       </div>
       <h2 className="work-reveal" style={{
         fontFamily: 'var(--font-display)',
