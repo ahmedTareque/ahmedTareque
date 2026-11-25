@@ -10,12 +10,12 @@
 ```
 
 # Ahmed Tareque
-### Software Engineer · AI Researcher · PhD Applicant
+### Software Engineer · AI Researcher · Incoming MS Student, OU
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ahmedtareque.netlify.app-00B4A2?style=flat-square&logo=netlify&logoColor=white)](https://ahmedtareque.netlify.app)
 [![Email](https://img.shields.io/badge/Email-Where.is.tareque%40gmail.com-FF5C3A?style=flat-square&logo=gmail&logoColor=white)](mailto:Where.is.tareque@gmail.com)
 [![Location](https://img.shields.io/badge/Location-Norman%2C%20Oklahoma-0A0A0A?style=flat-square&logo=googlemaps&logoColor=white)](https://maps.google.com/?q=Norman,OK)
-[![PhD](https://img.shields.io/badge/Seeking-PhD%202026-00B4A2?style=flat-square&logo=academia&logoColor=white)]()
+[![MS](https://img.shields.io/badge/Incoming%20MS-Regional%20%26%20City%20Planning%20%40%20OU-00B4A2?style=flat-square&logo=googlescholar&logoColor=white)](https://www.ou.edu/gibbs/academics/graduate/regional-and-city-planning)
 
 *"Building AI systems that are not only powerful — but trustworthy enough to save lives."*
 
@@ -189,9 +189,16 @@ Hardware          ████████░░░░░░░░░░  Arduin
 
 ---
 
-## Research Interests *(PhD Focus)*
+## Education
 
-I am actively seeking PhD opportunities in the following areas:
+- **MS, Regional & City Planning** — [University of Oklahoma](https://www.ou.edu/gibbs/academics/graduate/regional-and-city-planning), Christopher C. Gibbs College of Architecture · Division of Planning, Landscape Architecture, and Design *(Incoming, 2026)*
+- **BSc, Computer Science** — BRAC University, Bangladesh
+
+---
+
+## Research Interests
+
+Ongoing interests carried from my AI research — now expanding toward the intersection of data, technology, and how cities are planned and lived in:
 
 - **Adversarial robustness** in deep learning — particularly for safety-critical applications
 - **Interpretability & explainability** in medical AI — making Grad-CAM and similar tools robust enough for clinical trust
@@ -253,7 +260,7 @@ Node version:    18.x
 
 ## Contact
 
-I'm always open to conversations about **trustworthy AI, PhD opportunities, research collaboration**, or just good hard engineering problems.
+I'm always open to conversations about **trustworthy AI, urban & city planning, research collaboration**, or just good hard engineering problems.
 
 📧 [Where.is.tareque@gmail.com](mailto:Where.is.tareque@gmail.com)  
 📱 (405) 981-8292  

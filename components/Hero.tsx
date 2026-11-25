@@ -115,7 +115,7 @@ export default function Hero() {
           gap: '1rem',
         }}>
           <span style={{ width: '2.5rem', height: '1px', background: 'var(--teal)' }} />
-          Norman, OK · PhD Applicant
+          Norman, OK · Incoming MS Student, OU
         </div>
 
         {/* Giant name */}

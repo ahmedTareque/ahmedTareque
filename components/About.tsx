@@ -5,7 +5,7 @@ import Image from "next/image";
 const MARQUEE_ITEMS = [
   'Trustworthy AI', '·', 'Adversarial Robustness', '·',
   'Medical Imaging', '·', 'Full-Stack Engineering', '·',
-  'PhD Applicant 2026', '·', 'Norman, OK', '·',
+  'Incoming MS · Regional & City Planning', '·', 'Norman, OK', '·',
 ]
 
 export default function About() {

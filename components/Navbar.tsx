@@ -65,7 +65,7 @@ export default function Navbar() {
         ))}
       </ul>
 
-      {/* PhD badge */}
+      {/* Status badge */}
       <div style={{
         fontFamily: 'var(--font-mono)',
         fontSize: '0.65rem',
@@ -76,7 +76,7 @@ export default function Navbar() {
         padding: '0.35rem 0.8rem',
         borderRadius: '2px',
       }}>
-        Seeking PhD · 2026
+        Incoming MS · OU · 2026
       </div>
     </nav>
   )

@@ -72,11 +72,11 @@ export default function Contact() {
           transition: 'transform 0.9s cubic-bezier(0.16,1,0.3,1), opacity 0.9s ease',
         }}>
           Open to<br />
-          <em style={{ color: 'var(--teal)' }}>PhD Opportunities</em><br />
+          <em style={{ color: 'var(--teal)' }}>Research &amp; Work</em><br />
           &amp; Collaboration.
         </h2>
 
-        {/* PhD intent callout */}
+        {/* Status callout */}
         <div className="contact-reveal" style={{
           display: 'inline-flex',
           alignItems: 'center',
@@ -96,7 +96,7 @@ export default function Contact() {
             textTransform: 'uppercase',
             color: 'var(--teal)',
           }}>
-            Actively Seeking PhD Positions in Trustworthy AI · 2026
+            Incoming MS Student · Regional &amp; City Planning · OU · 2026
           </span>
         </div>
 
