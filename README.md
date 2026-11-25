@@ -12,7 +12,7 @@
 # Ahmed Tareque
 ### Software Engineer · AI Researcher · Incoming MS Student, OU
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-ahmedtareque.netlify.app-00B4A2?style=flat-square&logo=netlify&logoColor=white)](https://ahmedtareque.netlify.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-ahmedtareque.com-00B4A2?style=flat-square&logo=vercel&logoColor=white)](https://ahmedtareque.com)
 [![Email](https://img.shields.io/badge/Email-Where.is.tareque%40gmail.com-FF5C3A?style=flat-square&logo=gmail&logoColor=white)](mailto:Where.is.tareque@gmail.com)
 [![Location](https://img.shields.io/badge/Location-Norman%2C%20Oklahoma-0A0A0A?style=flat-square&logo=googlemaps&logoColor=white)](https://maps.google.com/?q=Norman,OK)
 [![MS](https://img.shields.io/badge/Incoming%20MS-Regional%20%26%20City%20Planning%20%40%20OU-00B4A2?style=flat-square&logo=googlescholar&logoColor=white)](https://www.ou.edu/gibbs/academics/graduate/regional-and-city-planning)
@@ -264,7 +264,7 @@ I'm always open to conversations about **trustworthy AI, urban & city planning, 
 
 📧 [Where.is.tareque@gmail.com](mailto:Where.is.tareque@gmail.com)  
 📱 (405) 981-8292  
-🌐 [ahmedtareque.netlify.app](https://ahmedtareque.netlify.app)  
+🌐 [ahmedtareque.com](https://ahmedtareque.com)  
 📍 Norman, Oklahoma
 
 ---

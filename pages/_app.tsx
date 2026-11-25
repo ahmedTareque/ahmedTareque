@@ -1,6 +1,8 @@
 import type { AppProps } from 'next/app'
 import '../styles/globals.css'
 import { useEffect } from 'react'
+import Script from 'next/script'
+import { Analytics } from '@vercel/analytics/react'
 
 export default function App({ Component, pageProps }: AppProps) {
   // ── Smooth scroll (Lenis) ───────────────────
@@ -58,5 +60,20 @@ export default function App({ Component, pageProps }: AppProps) {
     }
   }, [])
 
-  return <Component {...pageProps} />
+  const gaId = process.env.NEXT_PUBLIC_GA_ID
+
+  return (
+    <>
+      {gaId && (
+        <>
+          <Script src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} strategy="afterInteractive" />
+          <Script id="ga-init" strategy="afterInteractive">
+            {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${gaId}');`}
+          </Script>
+        </>
+      )}
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  )
 }
